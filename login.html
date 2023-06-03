@@ -47,10 +47,10 @@
                     <img 
                         src="img/fastlink_logo_black.png" 
                         alt="fastlink-logo"
-                        style="height: auto; width: 200px; display: block; margin: 0 auto" />
+                        style="height: auto; width: 200px; display: block; margin: 0 auto; padding: 30px" />
 
                     <p class="info $(if error)alert$(endif)">
-                        $(if error == "")Please log in to use the internet hotspot service $(if trial == 'yes')<br />Free trial available, <a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">click here</a>.$(endif)
+                        $(if error == "")Please log in to use the internet hotspot $(if trial == 'yes')<br />Free trial available, <a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">click here</a>.$(endif)
                         $(endif)
 
                         $(if error)$(error)$(endif)
@@ -71,7 +71,6 @@
                     <button class="register-button">
                         <a href="https://fastlink-app.vercel.app/#/signup"
                             style="display: block; color:#E0371D; text-decoration: none">Register</a>
-
                 </form>
                 
                 <footer>
