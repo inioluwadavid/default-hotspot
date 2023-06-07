@@ -243,20 +243,19 @@ input[type=submit]:hover {
     background: #e0604d
 }
 
-footer {
+.footerr {
     margin-top: 50px;
     text-align: center;
     color: #fff;
-
 }
 
-footer a {
+.footer a {
     margin: 0 10px;
     color: #E0371D;
     text-decoration: none;
 }
 
-footer a:hover {
+.footer a:hover {
     color: #e0604d;
     text-decoration: underline;
 }
