@@ -14,6 +14,7 @@ span {
     font-family: sans-serif, Arial
 }
 
+
 body,
 html {
     min-height: 100%;
@@ -244,9 +245,10 @@ input[type=submit]:hover {
 }
 
 .footerr {
-    margin-top: 50px;
+    margin-top: 25px;
     text-align: center;
     color: #fff;
+    padding-top: 30px;
 }
 
 .footer a {
